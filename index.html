@@ -26,7 +26,7 @@ background: linear-gradient(207deg, rgba(247,104,33,1) 11%, rgba(250,75,49,1) 57
             border-radius: 15px;
         }
         .sec-1{
-            background:  linear-gradient(135deg, #10002b, #240046, #5a189a);
+            /* background:  linear-gradient(135deg, #10002b, #240046, #5a189a); */
 
 
         }
@@ -34,8 +34,8 @@ background: linear-gradient(207deg, rgba(247,104,33,1) 11%, rgba(250,75,49,1) 57
 </head>
 <body>
     <div class="container">
-        <nav class="navbar navbar-expand-lg   border-bottom"
-            style="background-color: #ffffff; padding-top: 20px; padding-bottom: 20px;">
+        <nav class="navbar navbar-expand-lg   border-bottom position-fixed fixed-top"
+            style="padding-top: 10px; padding-bottom: 10px;">
             <a class="navbar-brand text-dark fw-bold fs-1" href="#">Next</a>
             <li class="list-unstyled text-white d-md-none d-block"><a
                     class="p-3 text-white text-decoration-none rounded-pill" style="background-color: #4f3fa5; "><i
@@ -45,25 +45,29 @@ background: linear-gradient(207deg, rgba(247,104,33,1) 11%, rgba(250,75,49,1) 57
             </button>
 
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav  d-flex   fs-4 ">
+                <ul class="navbar-nav    d-flex  fw-bold fs-6 ">
                     <li class="nav-item ">
-                        <a class="nav-link text-dark me-4" href="#">Home </a>
+                        <a class="nav-link text-white me-4" href="#">Home </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark me-4" href="#">Service </a>
+                        <a class="nav-link text-white me-4" href="#">Service </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark me-4" href="#">Contact </a>
+                        <a class="nav-link text-white me-4" href="#">Contact </a>
                     </li>
                 </ul>
             </div>
         </nav>
     </div>
 
-    <div class="sec-1 " >
+    <div class="sec-1 position-relative" >
+        <video class="w-100 position-absolute fixed-top" style="z-index: -1;filter: brightness(0.4);" autoplay="true" src="https://videos.pexels.com/video-files/6007424/6007424-sd_960_506_24fps.mp4"></video>
+
         <div class="container py-5">
+
             <div class="py-5 text-center text-white">
-                <p class="display-3   fw-bold "> Your Gateway to <br> Portuguese <br> Nationality for Goans</p>
+                <p class="display-4   fw-bold "> Turning Your Dream Home into Reality <br>– With Mirza Realtor.</p>
+                <p><i class="bi bi-geo-alt-fill"></i> Goa's Trusted Property Partner!</p>
                 <p class="fs-5 mb-5" >Expert consultancy for nationality, travel bookings, and document <br> assistance.</p>
 
                 <a class="rounded-pill border p-3 text-decoration-none text-white ">&nbsp;&nbsp;  Get Started &nbsp;&nbsp;</a>
