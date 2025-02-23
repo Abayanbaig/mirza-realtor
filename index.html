@@ -25,21 +25,34 @@ background: linear-gradient(207deg, rgba(247,104,33,1) 11%, rgba(250,75,49,1) 57
             width: 300px;
             border-radius: 15px;
         }
-        .sec-1{
-            /* background:  linear-gradient(135deg, #10002b, #240046, #5a189a); */
+        .imgR{
+            object-fit: cover;
+        }
 
+        .nav-fade {
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    width: 100%;
+    background-color: transparent; /* Initial transparent */
 
+    transition: background-color 0.5s ease-in-out; /* Smooth transition */
+}
+
+.scrolled {
+    background-color: black !important; /* Background turns black */
+    color: white;
+}
+.bg-cl{
+            
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg   border-bottom position-fixed fixed-top"
+    <div    class="nav-fade bg-cl fixed-top ">
+        <nav  id="nav-fade"  class="navbar navbar-expand-lg ps-5 pe-5 "
             style="padding-top: 10px; padding-bottom: 10px;">
-            <a class="navbar-brand text-dark fw-bold fs-1" href="#">Next</a>
-            <li class="list-unstyled text-white d-md-none d-block"><a
-                    class="p-3 text-white text-decoration-none rounded-pill" style="background-color: #4f3fa5; "><i
-                        class="bi bi-telephone-fill"></i> +915544554785</a></li>
+            <a class="navbar-brand text-white fw-bold fs-1" href="#">Next</a>
             <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -59,36 +72,47 @@ background: linear-gradient(207deg, rgba(247,104,33,1) 11%, rgba(250,75,49,1) 57
             </div>
         </nav>
     </div>
-
+    <script>
+        window.addEventListener("scroll", function () {
+            var navbar = document.getElementById("nav-fade");
+            
+            if (window.scrollY > 50) { // Change background after scrolling 50px
+                navbar.classList.add("scrolled");
+            } else {
+                navbar.classList.remove("scrolled");
+            }
+        });
+    </script>
     <div class="sec-1 position-relative" >
         <video class="w-100 position-absolute fixed-top" style="z-index: -1;filter: brightness(0.4);" autoplay="true" src="https://videos.pexels.com/video-files/6007424/6007424-sd_960_506_24fps.mp4"></video>
 
         <div class="container py-5">
 
-            <div class="py-5 text-center text-white">
+            <div class="py-5 text-center text-white" style="margin-top: 10%;">
+                
                 <p class="display-4   fw-bold "> Turning Your Dream Home into Reality <br>– With Mirza Realtor.</p>
                 <p><i class="bi bi-geo-alt-fill"></i> Goa's Trusted Property Partner!</p>
-                <p class="fs-5 mb-5" >Expert consultancy for nationality, travel bookings, and document <br> assistance.</p>
-
+                <!-- <p class="fs-5 mb-5" >Expert consultancy for nationality, travel bookings, and document <br> assistance.</p> -->
+<br><br>
                 <a class="rounded-pill border p-3 text-decoration-none text-white ">&nbsp;&nbsp;  Get Started &nbsp;&nbsp;</a>
             </div>
-            <div class="row">
+            <div class="row pt-5">
                 <div class="col-md-4">
-                    <img src="/images/img1.jpg" alt="img" class="img-fluid">
+                    <img src="/images/img1.jpg" alt="img" class="img-fluid imgR">
                     <div class="text-white text-center p-3" style="background-color: rgba(255, 255, 255, 0.199);">
                         <p class=""> Assistance with obtaining Portuguese nationality and documents for Goans.</p>
 
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <img src="/images/img1.jpg" alt="img" class="img-fluid">
+                    <img src="/images/img2.jpg" alt="img" class="img-fluid imgR" >
                     <div class="text-white text-center p-3" style="background-color: rgba(255, 255, 255, 0.199);">
                         <p class=""> Assistance with obtaining Portuguese nationality and documents for Goans.</p>
 
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <img src="/images/img1.jpg" alt="img" class="img-fluid">
+                <div class="col-md-4 mb-5">
+                    <img src="/images/img3.jpg" alt="img" class="img-fluid imgR">
                     <div class="text-white text-center p-3" style="background-color: rgba(255, 255, 255, 0.199);">
                         <p class=""> Assistance with obtaining Portuguese nationality and documents for Goans.</p>
 
@@ -100,10 +124,11 @@ background: linear-gradient(207deg, rgba(247,104,33,1) 11%, rgba(250,75,49,1) 57
     <div class="container py-5">
         <div class="row ">
             <div class="col-md-6 p-5">
-                <p class="fs-1 fw-bold ">Your Gateway to <br> Portuguese <br> Nationality</p>
+                <p class="fs-1 fw-bold "> We Are The <br> Goa's Trusted <br> Property Partner!</p>
             </div>
             <div class="col-md-6 p-5">
-                <p class="text-muted mb-5">At Portugal Direct, we specialize in travel and consultancy services to help you obtain Portuguese nationality and navigate essential documentation with ease.</p>
+                <p class="text-muted mb-5">At Mirza Realtor, we specialize in connecting you with the finest properties across Goa. Whether you're searching for a dream home, a lucrative investment, or a commercial space, we make the process seamless and hassle-free. With a deep understanding of the local real estate market, we deliver personalized solutions that match your vision. Explore the best of Goa's property landscape with us today!
+                </p>
                 <div class="row">
                     <div class="col-md-6">
                         <p class="display-3 m-0 p-0">150+</p>
@@ -125,7 +150,7 @@ background: linear-gradient(207deg, rgba(247,104,33,1) 11%, rgba(250,75,49,1) 57
     <div class=" bg-sec" >
         <div class="container py-5">
             <div class="py-5 text-center text-white">
-                <p class="display-4   fw-bold ">Comprehensive Services</p>
+                <p class="display-4   fw-bold ">Our Services</p>
                 <p class="fs-6 mb-5" >Your trusted partner for travel, nationality consultancy, and document assistance in Portugal.</p>
 
              </div>
@@ -134,7 +159,7 @@ background: linear-gradient(207deg, rgba(247,104,33,1) 11%, rgba(250,75,49,1) 57
                     <img src="/images/img1.jpg" alt="img" class="img-fluid border-r">
                     <div class="text-dark bg-white  p-3" style="background-color: rgba(255, 255, 255, 0.199);">
                         <p class="fs-5 fw-bold">Indian Passport and World wide VISA services</p>
-                        <p class="text-muted">Your trusted partner for travel, nationality consultancy, and document assistance in PortugalYour trusted partner for travel, nationality consultancy, and document assistance in Portugal</p>
+                        <p class="text-muted">Residential Property Sales & RentalsFind your perfect home with our extensive listings of residential properties. From luxurious villas to cozy apartments, we offer tailored solutions to suit your lifestyle and budget.</p>
 
                     </div>
                 </div>
@@ -142,7 +167,7 @@ background: linear-gradient(207deg, rgba(247,104,33,1) 11%, rgba(250,75,49,1) 57
                     <img src="/images/img1.jpg" alt="img" class="img-fluid border-r">
                     <div class="text-dark bg-white  p-3" style="background-color: rgba(255, 255, 255, 0.199);">
                         <p class="fs-5 fw-bold">Indian Passport and World wide VISA services</p>
-                        <p class="text-muted">Your trusted partner for travel, nationality consultancy, and document assistance in PortugalYour trusted partner for travel, nationality consultancy, and document assistance in Portugal</p>
+                        <p class="text-muted">Commercial Property SolutionsBoost your business with prime commercial spaces. We help you locate offices, retail stores, and industrial properties that align with your growth goals.</p>
 
                     </div>
                 </div>
@@ -150,7 +175,7 @@ background: linear-gradient(207deg, rgba(247,104,33,1) 11%, rgba(250,75,49,1) 57
                     <img src="/images/img1.jpg" alt="img" class="img-fluid border-r">
                     <div class="text-dark bg-white  p-3" style="background-color: rgba(255, 255, 255, 0.199);">
                         <p class="fs-5 fw-bold">Indian Passport and World wide VISA services</p>
-                        <p class="text-muted">Your trusted partner for travel, nationality consultancy, and document assistance in PortugalYour trusted partner for travel, nationality consultancy, and document assistance in Portugal</p>
+                        <p class="text-muted">Property Management & Legal AssistanceWe handle everything from property maintenance to legal documentation, ensuring a smooth and stress-free experience for property owners and investors.</p>
 
                     </div>
                 </div>
