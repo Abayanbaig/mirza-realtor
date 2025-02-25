@@ -9,12 +9,19 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-    <title>Document</title>
+    <title>Mirza realtor</title>
 
+<!-- Aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+<!-- fontawesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/solid.min.css" integrity="sha512-DzC7h7+bDlpXPDQsX/0fShhf1dLxXlHuhPBkBo/5wJWRoTU6YL7moeiNoej6q3wh5ti78C57Tu1JwTNlcgHSjg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         .bg-sec{
-            background: rgb(247,104,33);
-background: linear-gradient(207deg, rgba(247,104,33,1) 11%, rgba(250,75,49,1) 57%, rgba(253,113,61,1) 76%, rgba(253,119,63,1) 79%, rgba(254,133,68,1) 86%);
+            background: rgb(2, 32, 56);
+background: linear-gradient(207deg, rgb(34, 0, 53) 11%, rgb(38, 0, 108) 57%, rgb(30, 0, 85) 76%, rgb(26, 0, 61) 79%, rgb(34, 9, 61) 86%);
         }
         .border-r{
             border-radius: 30px 30px 0%  0%  ;
@@ -50,6 +57,9 @@ background: linear-gradient(207deg, rgba(247,104,33,1) 11%, rgba(250,75,49,1) 57
     </style>
 </head>
 <body>
+    <script>
+        AOS.init();
+      </script>
     <div    class="nav-fade bg-cl fixed-top ">
         <nav  id="nav-fade"  class="navbar navbar-expand-lg ps-5 pe-5 "
             style="padding-top: 10px; padding-bottom: 10px;">
@@ -84,38 +94,38 @@ background: linear-gradient(207deg, rgba(247,104,33,1) 11%, rgba(250,75,49,1) 57
             }
         });
     </script>
-    <div class="sec-1 position-relative" >
-        <video class="w-100 position-absolute fixed-top" style="z-index: -1;filter: brightness(0.4);" autoplay="true" src="https://videos.pexels.com/video-files/6007424/6007424-sd_960_506_24fps.mp4"></video>
+    <div class="sec-1 position-relative w-100"  style="overflow-x: hidden;" >
+        <video class=" position-absolute fixed-top"  style="height: 100vh;;z-index: -1;filter: brightness(0.4);" muted autoplay loop src="/assets/aerial-view-to-the-saint-stephen-sveti-stefan-island-on-the-adriatic-coast-of-montenegro-free-video.mp4"></video>
 
         <div class="container py-5">
 
             <div class="py-5 text-center text-white" style="margin-top: 10%;">
                 
-                <p class="display-4   fw-bold "> Turning Your Dream Home into Reality <br>– With Mirza Realtor.</p>
-                <p><i class="bi bi-geo-alt-fill"></i> Goa's Trusted Property Partner!</p>
+                <p data-aos="fade-up" class="display-4   fw-bold "> Turning Your Dream Home into Reality <br>– With Mirza Realtor.</p>
+                <p data-aos="fade-up" data-aos-delay="200"><i class="bi bi-geo-alt-fill"></i> Goa's Trusted Property Partner!</p>
                 <!-- <p class="fs-5 mb-5" >Expert consultancy for nationality, travel bookings, and document <br> assistance.</p> -->
 <br><br>
-                <a class="rounded-pill border p-3 text-decoration-none text-white ">&nbsp;&nbsp;  Get Started &nbsp;&nbsp;</a>
+                <a href="/contact.html" class="btn rounded-pill border p-3 text-decoration-none text-white ">&nbsp;&nbsp;  Get Started &nbsp;&nbsp;</a>
             </div>
             <div class="row pt-5 justify-content-center d-flex">
-                <div class="col-md-4 imgR">
+                <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" class="col-md-4 imgR ">
                     <img src="/images/img2.jpg" alt="img" class="img-fluid ">
-                    <div class="text-white text-center p-3" style="background-color: rgba(255, 255, 255, 0.199);">
-                        <p class="">Commercial Property SolutionsBoost your business with prime commercial spaces.</p>
+                    <div class="text-dark border text-center p-3" style="background-color: rgba(255, 255, 255, 0.199);">
+                        <p class=""><b>Commercial Property Solutions: </b> Boost your business with prime commercial spaces.</p>
 
                     </div>
                 </div>
-                <div class="col-md-4 imgR">
+                <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="col-md-4 imgR ">
                     <img src="/images/img4.jpg" alt="img" class="img-fluid " >
-                    <div class="text-white text-center p-3" style="background-color: rgba(255, 255, 255, 0.199);">
-                        <p class=""> Residential Property Sales & RentalsFind your perfect home with our extensive listings of residential properties.</p>
+                    <div class="text-dark border text-center p-3" style="background-color: rgba(255, 255, 255, 0.199);">
+                        <p class=""> <b>Residential Property Sales & Rentals: </b>Find your perfect home with our extensive listings of residential properties.</p>
 
                     </div>
                 </div>
-                <div class="col-md-4 mb-5 imgR">
+                <div data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" class="col-md-4 mb-5 imgR  ">
                     <img src="/images/img1.jpg" alt="img" class="img-fluid ">
-                    <div class="text-white text-center p-3" style="background-color: rgba(255, 255, 255, 0.199);">
-                        <p class="">Fully Equipped Kitchen - Includes high quality appliances, stainless steel countertops, and ample storage.</p>
+                    <div class="text-dark border text-center p-3" style="background-color: rgba(255, 255, 255, 0.199);">
+                        <p class=""><b>Fully Equipped Kitchen:</b> Includes high quality appliances, stainless steel countertops, and ample storage.</p>
 
                     </div>
                 </div>
@@ -124,21 +134,26 @@ background: linear-gradient(207deg, rgba(247,104,33,1) 11%, rgba(250,75,49,1) 57
     </div>
     <div class="container py-5">
         <div class="row ">
-            <div class="col-md-6 p-5">
+            <div data-aos="fade-right" data-aos-delay="0" data-aos-duration="1000" class="col-md-6 p-5">
                 <p class="fs-1 fw-bold "> We Are The <br> Goa's Trusted <br> Property Partner!</p>
             </div>
-            <div class="col-md-6 p-5">
-                <p class="text-muted mb-5">At Mirza Realtor, we specialize in connecting you with the finest properties across Goa. Whether you're searching for a dream home, a lucrative investment, or a commercial space, we make the process seamless and hassle-free. With a deep understanding of the local real estate market, we deliver personalized solutions that match your vision. Explore the best of Goa's property landscape with us today!
+            <div  class="col-md-6 p-5">
+                <p data-aos="fade-left" data-aos-delay="0" data-aos-duration="1000" class="text-muted mb-5">At Mirza Realtor, we specialize in connecting you with the finest properties across Goa. Whether you're searching for a dream home, a lucrative investment, or a commercial space, we make the process seamless and hassle-free. With a deep understanding of the local real estate market, we deliver personalized solutions that match your vision. Explore the best of Goa's property landscape with us today!
                 </p>
                 <div class="row">
-                    <div class="col-md-6">
-                        <p class="display-3 m-0 p-0">150+</p>
-                        <p class="text-muted">Expert Guidance</p>
+                    <div class="col-md-4">
+                        <p data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" class="display-3 m-0 p-0">500+</p>
+                        <p data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" class="text-muted">Happy clients</p>
                     </div>
 
-                    <div class="col-md-6 " >
-                        <p class="display-3 p-0 m-0">1000+</p>
-                        <p class="text-muted">Expert Guidance</p>
+                    <div class="col-md-4 " >
+                        <p data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" class="display-3 p-0 m-0">300+ </p>
+                        <p data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" class="text-muted">Successful Property Deals</p>
+                    </div>
+
+                    <div class="col-md-4" >
+                        <p data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" class="display-3 p-0 m-0">10+ </p>
+                        <p data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000" class="text-muted">Years of experience</p>
                     </div>
 
                 </div>
@@ -148,35 +163,87 @@ background: linear-gradient(207deg, rgba(247,104,33,1) 11%, rgba(250,75,49,1) 57
 
     </div>
 
+
+    <div class="container py-5 my-5">
+        <div class="py-5 text-center ">
+            <p data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000"  class="display-4   fw-bold ">Why choose us ?</p>
+
+         </div>
+
+         <div class="row">
+            <div class="col-6 col-md-3 p-1">
+            <div data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000" class=" p-3 border rounded text-center ">
+                <i class="fa-solid py-3 fa-user-tie display-6 "></i>
+                <h6 class="py-3">Local Expertise</h6>
+                <p class="">Our deep-rooted knowledge of Goa's real estate landscape helps us find properties that perfectly match your vision.</p>
+
+            </div>
+        </div>
+
+        <div class="col-6 col-md-3 p-1">
+
+            <div data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000" class=" p-3 border rounded text-center ">
+                <i class="fa-solid py-3 fa-screwdriver-wrench display-6 "></i>
+                <h6 class="py-3">Personalized Service</h6>
+                <p class="">Every client is unique – and so is our approach. We tailor solutions to fit your specific requirements and preferences.</p>
+
+            </div>
+            </div>
+
+            <div class="col-6 col-md-3 p-1">
+
+            <div data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000" class=" p-3 border rounded text-center ">
+                <i class="fa-solid py-3 fa-comments-dollar display-6 "></i>
+                <h6 class="py-3">Transparent Transactions</h6>
+                <p class="">We prioritize honesty and transparency, ensuring you are informed and confident throughout the process.
+                </p>
+</div>
+            </div>
+
+            <div class="col-6 col-md-3 p-1">
+
+            <div data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000" class=" p-3 border rounded text-center ">
+                <i class="fa-solid py-3 fa-headset display-6 "></i>
+                <h6 class="py-3 ">End-to-End Support</h6>
+                <p class="">From property search to legal documentation, we handle everything – so you can focus on what matters most.
+                </p>
+</div>
+            </div>
+
+         </div>
+    </div>
+
+
+
     <div class=" bg-sec" >
         <div class="container py-5">
             <div class="py-5 text-center text-white">
-                <p class="display-4   fw-bold ">Our Services</p>
-                <p class="fs-5 mb-5" >Find Your Perfect Home - Luxury Villas, Cozy Apartments & More!</p>
+                <p data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000"  class="display-4   fw-bold ">Our Services</p>
+                <p data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="fs-5 mb-5" >Find Your Perfect Home - Luxury Villas, Cozy Apartments & More!</p>
 
              </div>
             <div class="row">
-                <div class="col-md-4 mb-3 img-res">
+                <div data-aos="flip-left" data-aos-delay="100" data-aos-duration="1000" class="col-md-4 mb-3 img-res">
                     <img src="/images/img6.jpg" alt="img" class="img-fluid border-r">
                     <div class="text-dark bg-white  p-3" style="background-color: rgba(255, 255, 255, 0.199);">
-                        <p class="fs-5 fw-bold">Residential Property</p>
-                        <p class="text-muted">Residential Property Sales & RentalsFind your perfect home with our extensive listings of residential properties. From luxurious villas to cozy apartments, we offer tailored solutions.</p>
+                        <p  class="fs-5 fw-bold">Residential Property</p>
+                        <p class="text-muted"> Find your perfect home with our extensive listings of residential properties. From luxurious villas to cozy apartments, we offer tailored solutions.</p>
 
                     </div>
                 </div>
-                <div class="col-md-4 mb-3">
+                <div data-aos="flip-left" data-aos-delay="100" data-aos-duration="1000" class="col-md-4 mb-3">
                     <img src="/images/img5.jpg" alt="img" class="img-fluid border-r">
                     <div class="text-dark bg-white  p-3" style="background-color: rgba(255, 255, 255, 0.199);">
                         <p class="fs-5 fw-bold">Spacious Layout </p>
-                        <p class="text-muted">Commercial Property SolutionsBoost your business with prime commercial spaces. We help you locate offices, retail stores, and industrial properties that align with your growth goals.</p>
+                        <p class="text-muted">Boost your business with prime commercial spaces. We help you locate offices, retail stores, and industrial properties that align with your growth goals.</p>
 
                     </div>
                 </div>
-                <div class="col-md-4 mb-3">
+                <div data-aos="flip-left" data-aos-delay="100" data-aos-duration="1000" class="col-md-4 mb-3">
                     <img src="/images/img7.jpg" alt="img" class="img-fluid border-r">
                     <div class="text-dark bg-white  p-3" style="background-color: rgba(255, 255, 255, 0.199);">
                         <p class="fs-5 fw-bold">Compliance & Safety</p>
-                        <p class="text-muted">Property Management & Legal Assistance We handle everything from property maintenance to legal documentation, ensuring a smooth and stress-free experience for property owners and investors.</p>
+                        <p class="text-muted">We handle everything from property maintenance to legal documentation, ensuring a smooth and stress-free experience for property owners and investors.</p>
 
                     </div>
                 </div>
@@ -189,17 +256,17 @@ background: linear-gradient(207deg, rgba(247,104,33,1) 11%, rgba(250,75,49,1) 57
     <div class=" " >
         <div class="container py-5">
             <div class="py-5 text-center ">
-                <p class="display-5   fw-bold ">Customer Feedback</p>
-                <p class="fs-6 mb-5" >Hear from our satisfied clients about their <br> experiences with us.</p>
+                <p data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" class="display-5   fw-bold ">Customer Feedback</p>
+                <p data-aos="flip-up" data-aos-delay="200" data-aos-duration="1000" class="fs-6 mb-5" >Hear from our satisfied clients about their <br> experiences with us.</p>
 
              </div>
             <div class="row">
-                <div class="col-md-6 mb-3" >
+                <div data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000" class="col-md-6 mb-3" >
                     <div class="text-dark  p-5" style="background-color: rgba(8, 8, 8, 0.096);" >
                         <p>
                             <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i>
                          </p>       
-                        <p class="text-muted">Mirza Realtor made buying my first home in Goa a breeze. Their team was supportive, transparent, and incredibly professional.</p>
+                        <p  class="text-muted">Mirza Realtor made buying my first home in Goa a breeze. Their team was supportive, transparent, and incredibly professional.</p>
                         <div>
                            <p class="m-0 p-0"> <i class="bi bi-person-circle fs-3 m-0 p-0"> </i> <span class="fs-4"> Anjali R.</span></p>
                           
@@ -209,7 +276,7 @@ background: linear-gradient(207deg, rgba(247,104,33,1) 11%, rgba(250,75,49,1) 57
                     </div>
                 </div>
                 
-                <div class="col-md-6 mb-3" >
+                <div data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000" class="col-md-6 mb-3" >
                     <div class="text-dark  p-5" style="background-color: rgba(8, 8, 8, 0.096);" >
                         <p>
                             <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star"></i>
@@ -228,27 +295,27 @@ background: linear-gradient(207deg, rgba(247,104,33,1) 11%, rgba(250,75,49,1) 57
         </div>
     </div>
 
-    <div class="container py-5">
+    <div class="container py-5" style="overflow: hidden;">
         <div class="py-5 text-center ">
-            <p class="display-5   fw-bold ">Spacious Layout</p>
-            <p class="fs-6 mb-5 text-muted" >Designed for efficiency, allowing smooth workflow and multiple workstations.</p>
+            <p data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="display-5   fw-bold ">Spacious Layout</p>
+            <p data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="fs-6 mb-5 text-muted" >Designed for efficiency, allowing smooth workflow and multiple workstations.</p>
 
          </div>
         <div class="row">
-            <div class="col-md-3 mb-3" >
+            <div data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000" class="col-md-3 mb-3" >
                 <div class="">
                     <img src="/images/img9.jpg" alt="img" class="img-bg">
 
                 </div>
             </div>
 
-            <div class="col-md-3 mb-3" >
+            <div data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1000" class="col-md-3 mb-3" >
                 <div class="">
                     <img src="/images/img6.jpg" alt="img" class="img-bg">
 
                 </div>
             </div>
-            <div class="col-md-3 mb-3" >
+            <div data-aos="zoom-in" data-aos-delay="800" data-aos-duration="1000" class="col-md-3 mb-3" >
                 <div class="">
                     <img src="/images/img1.jpg" alt="img" class="img-bg">
 
@@ -256,11 +323,11 @@ background: linear-gradient(207deg, rgba(247,104,33,1) 11%, rgba(250,75,49,1) 57
             </div>
 
             <div class="col-md-3  " >
-                <div class="p-2 mt-2">
+                <div data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000" class="p-2 mt-2">
                     <img src="/images/img5.jpg" alt="img" class="img-fluid rounded">
                 </div>
 
-                <div class="p-2">
+                <div data-aos="zoom-in" data-aos-delay="1200" data-aos-duration="1000" class="p-2">
                     <img src="/images/img7.jpg" alt="img" class="img-fluid rounded">
                 </div>
             </div>
