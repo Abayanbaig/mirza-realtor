@@ -9,6 +9,12 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+
+<!-- Aos -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <title>Document</title>
 
     <style>
@@ -17,7 +23,9 @@
   
  
 
-
+ .ff{
+    font-family: "Lucida Console", "Courier New", monospace;
+}
         .nav-fade {
     position: fixed;
     z-index: 4;
@@ -35,10 +43,17 @@
     </style>
 </head>
 <body>
+
+
+    <script>
+        AOS.init();
+      </script>
     <div    class="nav-fade bg-cl fixed-top ">
         <nav  id="nav-fade"  class="navbar navbar-expand-lg ps-5 pe-5 "
             style="padding-top: 10px; padding-bottom: 10px;">
-            <a class="navbar-brand text-white fw-bold fs-1" href="#">Next</a>
+            <a class="navbar-brand text-white fw-bold fs-2" href="/">
+                <img src="/images/logo.jpeg" alt="logo" class="img-fluid rounded-circle" style="max-width: 70px;"> Mirza <span class="fs-6">Reality</span>
+            </a>
             <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -71,32 +86,27 @@
     </script>
 
 
-<div  class="new-bg">
-    
-    <h1 class="display-3 fw-bold  text-center  text-white p-3" >Contact Us </h1>
-    <p class="fs-3 text-center text-white"><span>Home</span> &nbsp; <span>  <i class="bi bi-chevron-right fs-5"> </i></span>&nbsp; <span>Contact Us</span></p>
-  </div>
-<section class="hero d-flex align-items-center">
+<section class="hero d-flex align-items-center " >
   <div class="container">
-    <div class="mb-md-5 mt-1">
-        <p class="fs-1 fw-bold p-3 border rounded-pill text-center">Contact Us</p>
-        <p class="text-center"><i class="bi bi-buildings-fill"></i> Building Trust, One Property at a Time.</p>
+    <div class="mb-md-5 mt-1" style="padding-top:13% ;">
+        <p class="fs-1 fw-bold p-3 border rounded-pill text-center"  data-aos="fade-up" data-aos-delay="0" data-aos-duration="500" >Contact Us</p>
+        <p class="text-center"  data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"><i class="bi bi-buildings-fill"></i> Building Trust, One Property at a Time.</p>
     </div>
       <div class="row hero-content">
           <!-- Left Side: Heading -->
            
           <div class="col-lg-6 mt-md-5" >
             <br>
-              <p class="fw-bolder display-4" >Start Your Property Journey with Mirza Realtor!</p>
-              <p class="fs-6 text-muted">Have questions or ready to explore the best properties in Goa? We’re here to help. Reach out to us today and let our expert team guide you through a seamless real estate experience. Whether you’re buying, selling, or need property advice, Mirza Realtor is your trusted partner.</p>
+              <p class="fw-bolder display-4" data-aos="fade-right" data-aos-delay="0" data-aos-duration="700">Start Your Property Journey with Mirza Realtor!</p>
+              <p class="fs-6 text-muted" data-aos="fade-right" data-aos-delay="0" data-aos-duration="1000">Have questions or ready to explore the best properties in Goa? We’re here to help. Reach out to us today and let our expert team guide you through a seamless real estate experience. Whether you’re buying, selling, or need property advice, Mirza Realtor is your trusted partner.</p>
           </div>
           
           <!-- Right Side: Contact Form -->
           <div class="col-lg-6 p-md-5 mb-3">
               <div class="form-container">
-                  <h3 >Send Us Message</h3>
-                  <p class="text-muted" >Ready to Register Our Landsio Services</p>
-                  <form  data-aos="fade-right" >
+                  <h3  data-aos="fade-left" data-aos-delay="0" data-aos-duration="500">Send Us Message</h3>
+                  <p class="text-muted" data-aos="fade-left" data-aos-delay="0" data-aos-duration="700">Ready to Register Our Landsio Services</p>
+                  <form  data-aos="fade-left" data-aos-delay="0" data-aos-duration="700" >
                       <div class="mb-3">
                           <input type="text" class="form-control p-3" placeholder="Your Name">
                       </div>
@@ -119,32 +129,47 @@
 
 
 
-    <div class="bg-dark">
-        <div class="container py-5 text-white">
-            <div class="row my-5">
-                <div class="col-md-4 p-3">
-                        <p class="fs-3">Services</p>
-                        <p class="fs-6">Travel agency for Portuguese nationality and bookings.</p>
-                </div>
+<div class="bg-dark">
+    <div class="container py-5 text-white ">
+        <div class="row my-5">
+            <div class="col-md-4 p-3 text-center">
+                <a class="navbar-brand text-white fw-bold fs-2 " href="/">
+                    <img src="/images/logo.jpeg" alt="logo" class="img-fluid rounded-circle" style="max-width: 70px;"> Mirza <span class="fs-6">Reality</span>
+                </a>
+                    <!-- <p class="fs-3">About Us</p> -->
+                    <p class="fs-6 ff mt-4  ">Welcome to "MIRZA REALTY GOA "<br> - a community designed to help you navigate the dynamic world of Goa's real estate market. 
+                        </p>
+            </div>
 
 
-                <div class="col-md-4 p-3 text-center">
-                    <p class="fs-3">Support</p>
-                    <p class="fs-6">+9123232424</p>
-                    <p class="fs-6">+9123232424</p>
-                </div>
+            <div class="col-md-4 p-3 text-center">
+                <p class="fs-3 ff">Support</p>
+                <p class="fs-6 ff p-0 m-0" >Ahmed - 8888999779</p>
 
-                <div class="col-md-4 p-3">
-                    <p class="fs-3">Consultation</p>
-                    <p class="fs-6">Your email address for inquiries</p>
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                      </form>
-                </div>
+                <p class="fs-6 ff p-0 m-0">Zara - +918888999775</p>
+            </div>
+
+            <div class="col-md-4 p-3 text-center">
+                <p class="fs-3 ff">Social Media</p>
+                <ul class="list-unstyled ff">
+                    <li >
+                        <a href="https://www.instagram.com/mirza_realty_goa_8?igsh=aTcweGR3Ynp3enY=" class="fs-6 text-decoration-none text-white"><i class="bi bi-instagram"></i> Instagram</a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.facebook.com/share/1KQ7efe9zY/" class="fs-6 text-decoration-none text-white"><i class="bi bi-facebook"></i> Facebook</a>
+                    </li>
+
+                    <li>
+                        <a href="https://wa.me/918888999775" class="fs-6 text-decoration-none text-white"><i class="bi bi-whatsapp"></i> Whatsapp</a>                            
+                    </li>
+                </ul>
+
+
             </div>
         </div>
-
     </div>
+
+</div>
 </body>
 </html>
