@@ -55,8 +55,23 @@ background: linear-gradient(207deg, rgb(34, 0, 53) 11%, rgb(38, 0, 108) 57%, rgb
     background-color: black !important; /* Background turns black */
     color: white;
 }
-.ff{
+/* .ff{
     font-family: "Lucida Console", "Courier New", monospace;
+} */
+
+@media screen and (max-width:995px) {
+    .nav-fade {
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    width: 100%;
+    background-color: black; /* Initial transparent */
+border: 1 px solid;
+    transition: background-color 0.5s ease-in-out; /* Smooth transition */
+}
+.bb1{
+    border-bottom: 1px solid rgb(179, 177, 177);
+}
 }
     </style>
 </head>
@@ -65,7 +80,7 @@ background: linear-gradient(207deg, rgb(34, 0, 53) 11%, rgb(38, 0, 108) 57%, rgb
         AOS.init();
       </script>
     <div    class="nav-fade bg-cl fixed-top ">
-        <nav  id="nav-fade"  class="navbar navbar-expand-lg ps-5 pe-5 "
+        <nav  id="nav-fade"  class="navbar navbar-expand-lg ps-5 pe-5  "
             style="padding-top: 10px; padding-bottom: 10px;">
             <a class="navbar-brand text-white fw-bold fs-2" href="./">
                 <img src="./images/logo.jpeg" alt="logo" class="img-fluid rounded-circle" style="max-width: 60px;"> Mirza <span class="fs-6">Realty</span>
@@ -74,12 +89,12 @@ background: linear-gradient(207deg, rgb(34, 0, 53) 11%, rgb(38, 0, 108) 57%, rgb
                 <span class="navbar-toggler-icon fs-6 bg-white"></span>
             </button>
 
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav    d-flex  fw-bold fs-6 ">
-                    <li class="nav-item ">
+            <div class="collapse navbar-collapse justify-content-end  " id="navbarNav">
+                <ul class="navbar-nav    d-flex  fw-bold fs-6  mt-md-0 mt-2">
+                    <li class="nav-item  bb1 ">
                         <a class="nav-link text-white me-4" href="./">Home </a>
                     </li>                                                                                                                       
-                    <li class="nav-item">
+                    <li class="nav-item bb1">
                         <a class="nav-link text-white me-4" href="./about.html">About </a>
                     </li>
                     <li class="nav-item">
@@ -119,21 +134,21 @@ background: linear-gradient(207deg, rgb(34, 0, 53) 11%, rgb(38, 0, 108) 57%, rgb
             <div class="row pt-5 justify-content-center d-flex">
                 <div data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" class="col-md-4 imgR ">
                     <img src="./images/img2.jpeg" alt="img" class="img-fluid ">
-                    <div class="text-dark border text-center p-3" style="background-color: rgb(255, 255, 255);">
+                    <div class="text-dark border text-center p-3 shadow" style="background-color: rgb(255, 255, 255);">
                         <p class=""><b>Commercial Property Solutions: </b> Boost your business with prime commercial spaces.</p>
 
                     </div>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" class="col-md-4 imgR ">
                     <img src="./images/img10.jpeg" alt="img" class="img-fluid " >
-                    <div class="text-dark border text-center p-3" style="background-color: rgb(255, 255, 255);">
+                    <div class="text-dark border text-center p-3 shadow" style="background-color: rgb(255, 255, 255);">
                         <p class=""> <b>Residential Property Sales & Rentals: </b>Find your perfect home with our extensive listings of residential properties.</p>
 
                     </div>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" class="col-md-4 mb-5 imgR  ">
                     <img src="./images/img4.jpeg" alt="img" class="img-fluid ">
-                    <div class="text-dark border text-center p-3" style="background-color: rgb(255, 255, 255);">
+                    <div class="text-dark border text-center p-3 shadow" style="background-color: rgb(255, 255, 255);">
                         <p class=""><b>Fully Equipped Kitchen:</b> Includes high quality appliances, stainless steel countertops, and ample storage.</p>
 
                     </div>
