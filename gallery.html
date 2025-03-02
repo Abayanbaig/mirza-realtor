@@ -15,13 +15,18 @@
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-<title>Mirza realtor | Contact</title>
+<title>Mirza realtor | Gallery</title>
 
 <link rel="icon"  type="image/x-icon" href="./images/logo.jpeg">
     <style>
  
 
   
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
  
 
  /* .ff{
@@ -40,6 +45,12 @@
 .scrolled {
     background-color: black !important; /* Background turns black */
     color: white;
+}
+.img-bg{
+border-radius: 30px;
+height: 480px;
+width: 750px;
+object-fit: cover;
 }
     </style>
 </head>
@@ -89,49 +100,36 @@
         });
     </script>
 
-<div class="w-100" style="overflow-x: hidden;">
-<section class="hero d-flex align-items-center " >
-  <div class="container mt-5">
+<div class="container ">
+
+<!-- Header -->
+<div class="header">
     <div class="mb-md-5 mt-1" style="padding-top:13% ;">
-        <p class="fs-1 fw-bold p-3 border rounded-pill text-center"  data-aos="fade-up" data-aos-delay="0" data-aos-duration="500" >Contact Us</p>
+        <p class="fs-1 fw-bold p-3 border rounded-pill text-center"  data-aos="fade-up" data-aos-delay="0" data-aos-duration="500" >Image Gallery</p>
         <p class="text-center"  data-aos="fade-up" data-aos-delay="0" data-aos-duration="500"><i class="bi bi-buildings-fill"></i> Building Trust, One Property at a Time.</p>
     </div>
-      <div class="row hero-content">
-          <!-- Left Side: Heading -->
-           
-          <div class="col-lg-6 mt-md-5" >
-            <br>
-              <p class="fw-bolder display-4" data-aos="fade-right" data-aos-delay="0" data-aos-duration="700">Start Your Property Journey with Mirza Realtor!</p>
-              <p class="fs-6 text-muted" data-aos="fade-right" data-aos-delay="0" data-aos-duration="1000">Have questions or ready to explore the best properties in Goa? We’re here to help. Reach out to us today and let our expert team guide you through a seamless real estate experience. Whether you’re buying, selling, or need property advice, Mirza Realtor is your trusted partner.</p>
-          </div>
-          
-          <!-- Right Side: Contact Form -->
-          <div class="col-lg-6 p-md-5 mb-3">
-              <div class="form-container">
-                  <h3  data-aos="fade-left" data-aos-delay="0" data-aos-duration="500">Send Us Message</h3>
-                  <p class="text-muted" data-aos="fade-left" data-aos-delay="0" data-aos-duration="700">Ready to Register Our Landsio Services</p>
-                  <form action="https://formeasy-tt5oyjktnq-uc.a.run.app/submit" method="POST"  data-aos="fade-left" data-aos-delay="0" data-aos-duration="700" >
-                    <input type="hidden" name="access_key" value="127b1d5d-e153-4b53-a2ad-b56316838ac2">      
-                    <div class="mb-3">
-                          <input type="text" name="name" class="form-control p-3" placeholder="Your Name" required>
-                      </div>
-                      <div class="mb-3">
-                          <input type="email" name="email" class="form-control p-3" placeholder="Your Email" required>
-                      </div>
-                      <div class="mb-3">
-                          <input type="tel" name="phone" class="form-control p-3" placeholder="Phone Number" required>
-                      </div>
-                      <div class="mb-3">
-                          <textarea class="form-control p-3" name="message" rows="4" placeholder="Your Message"></textarea>
-                      </div>
-                      <button type="submit"  class="btn-dark btn p-3 text-white ">Send a Message <i class="bi bi-arrow-right"></i></button>
-                  </form>
-              </div>
-          </div>
-      </div>
   </div>
-</section>
+  
+  <!-- Photo Grid -->
+  <div class="row"> 
+    <div class="col-md-6 mb-2 ">
+    <img src="./images/img1.jpeg" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1000"   class="img-fluid img-bg p-3 ">
+    <img src="./images/img2.jpeg" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1000"   class="img-fluid img-bg p-3 " >
+    <img src="./images/3mg.jpeg"  data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1000"  class="img-fluid img-bg p-3 ">
+     <img src="./images/4mg.jpeg" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1000"   class="img-fluid img-bg p-3 ">
+    <img src="./images/img3.jpeg" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1000"   class="img-fluid img-bg p-3 ">
+    <img src="./images/img7.jpeg" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1000"   class="img-fluid img-bg p-3 ">
+    </div>
 
+    <div class="col-md-6 mb-2 ">
+         <img src="./images/img5.jpeg"  data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1000"  class="img-fluid p-3 img-bg ">
+          <img src="./images/img4.jpeg" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1000"   class="img-fluid p-3 img-bg " >
+         <img src="./images/2mg.jpeg"   data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1000"  class="img-fluid p-3 img-bg ">
+         <img src="./images/img11.jpeg" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1000"   class="img-fluid p-3 img-bg ">
+         <img src="./images/img6.jpeg"  data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1000"  class="img-fluid p-3 img-bg ">
+         <img src="./images/img10.jpeg" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1000"   class="img-fluid p-3 img-bg ">
+         </div>
+  </div>
 </div>
 
 <div class="bg-dark">
