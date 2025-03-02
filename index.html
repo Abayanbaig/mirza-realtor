@@ -58,6 +58,13 @@ background: linear-gradient(207deg, rgb(34, 0, 53) 11%, rgb(38, 0, 108) 57%, rgb
 .ff{
     font-family: "Lucida Console", "Courier New", monospace;
 }
+
+@media screen and (max-width:990px) {
+
+    .navbar-collapse{
+        background-color: black;
+    }
+}
     </style>
 </head>
 <body>
@@ -74,8 +81,8 @@ background: linear-gradient(207deg, rgb(34, 0, 53) 11%, rgb(38, 0, 108) 57%, rgb
                 <span class="navbar-toggler-icon fs-6 bg-white"></span>
             </button>
 
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav    d-flex  fw-bold fs-6 ">
+            <div class="collapse navbar-collapse   justify-content-end" id="navbarNav">
+                <ul class="navbar-nav   p-3 d-flex  fw-bold fs-6 ">
                     <li class="nav-item ">
                         <a class="nav-link text-white me-4" href="/">Home </a>
                     </li>                                                                                                                       
@@ -87,6 +94,7 @@ background: linear-gradient(207deg, rgb(34, 0, 53) 11%, rgb(38, 0, 108) 57%, rgb
                     </li>
                 </ul>
             </div>
+        
         </nav>
     </div>
     <script>
